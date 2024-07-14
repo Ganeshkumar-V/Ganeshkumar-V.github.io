@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ganeshkumar V"
+title                    : "Homepage"
 title_separator          : "-"
-subtitle                 : "PhD Scholar" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ganeshkumar V"
-description              : "An amazing website."
+description              : "PhD Scholar."
 url                      : "https://ganeshkumar-v.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Ganeshkumar-V" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Ganeshkumar V"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/css/Rocket.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My brother is an **amazing** person."
   location         : "IIT Gandhinagar"
   email            : "ganeshkv@iitgn.ac.in"
