@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Projects</title>
-      <link rel="stylesheet" href="style.css" />
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    </head>
-    <body>
-    
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
 <nav>
   <ul>
     <li><a href="index.html">Home</a></li>
@@ -21,17 +21,29 @@
   </ul>
 </nav>
 
-    
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>Ph.D.: Multiphase CFD in OpenFOAM for metal-based propellants</li>
-        <li>Combustion Optimization using Hybrid MPI-OpenMP parallelism</li>
-        <li>SPH-FEM simulation of electrohydraulic forming (MIT)</li>
-        <li>Acoustic mode analysis of air cavity (IIT Madras)</li>
-      </ul>
-    </section>
-    
-    <footer><p>© 2025 Ganeshkumar. All rights reserved.</p></footer>
-    </body>
-    </html>
+
+<section>
+  <h2>Projects</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Ph.D. Research</h3>
+      <p>Multiphase CFD in OpenFOAM to model solid rocket motors with metal-based propellants.</p>
+    </div>
+    <div class="card">
+      <h3>Combustion Optimization</h3>
+      <p>Hybrid MPI-OpenMP strategy in OpenFOAM for accelerated chemistry calculations (208x speedup).</p>
+    </div>
+    <div class="card">
+      <h3>Electrohydraulic Forming</h3>
+      <p>SPH-FEM simulations in ABAQUS to model sheet metal deformation using electrical discharges.</p>
+    </div>
+    <div class="card">
+      <h3>Acoustic Analysis</h3>
+      <p>Modal acoustic analysis in ANSYS for rocket combustion chamber air cavity (IIT Madras).</p>
+    </div>
+  </div>
+</section>
+
+<footer><p>© 2025 Ganeshkumar. All rights reserved.</p></footer>
+</body>
+</html>
