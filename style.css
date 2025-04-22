@@ -4,7 +4,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
 body {
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
@@ -12,7 +11,6 @@ body {
   color: #333;
   padding: 0 20px;
 }
-
 nav {
   background: #ffffff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -20,24 +18,20 @@ nav {
   top: 0;
   z-index: 1000;
 }
-
 nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
   padding: 15px 0;
 }
-
 nav ul li {
   margin: 0 20px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: #007acc;
   font-weight: 600;
 }
-
 section {
   max-width: 800px;
   margin: 60px auto;
@@ -46,23 +40,19 @@ section {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
-
 h1, h2 {
   color: #007acc;
   margin-bottom: 15px;
 }
-
 ul {
   padding-left: 20px;
 }
-
 footer {
   text-align: center;
   margin: 40px 0;
   font-size: 0.9em;
   color: #777;
 }
-
 .download-btn {
   display: inline-block;
   margin-top: 20px;
@@ -74,7 +64,6 @@ footer {
   font-weight: 600;
   transition: background-color 0.3s ease;
 }
-
 .download-btn:hover {
   background-color: #005fa3;
 }
