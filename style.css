@@ -243,14 +243,16 @@ section > ul li {
 }
 
 section > ul li::before {
-  content: '\2713'; /* Checkmark icon */
+  /* Soft circular bullet (decorative) */
+  content: '';
   position: absolute;
-  left: 0;
-  top: 0;
-  color: #3498db; /* Theme blue */
-  font-weight: bold;
-  font-size: 1.2em;
-  line-height: 1.6;
+  left: 6px;
+  top: 10px;
+  width: 8px;
+  height: 8px;
+  background: rgba(52, 152, 219, 0.9);
+  border-radius: 50%;
+  display: inline-block;
 }
 
 /* Strong tags for titles in lists */
