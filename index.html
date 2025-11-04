@@ -66,21 +66,10 @@
         REPLACE THIS: The download link is empty. 
         Upload your resume and change '#' to the file's path (e.g., "Resume.pdf").
       -->
-      <a href="#" download="Ganeshkumar_V_Resume.pdf" class="download-btn" title="Download Resume (link disabled)">Download Resume</a>
+          <a href="../CV.pdf" download="Ganeshkumar_V_CV.pdf" class="download-btn" target="_blank" aria-label="Download CV PDF"><i class="fas fa-file-pdf" style="margin-right:8px"></i>Download CV</a>
     </section>
 
-    <!-- Education Section (from education.html) -->
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li><strong>PhD in Mechanical Engineering</strong> IIT Gandhinagar (2020 - Present), CPI: 9.61/10</li>
-        <li><strong>B.E. in Mechanical Engineering</strong> MIT – Anna University (2016 - 2020), CGPA: 9.84/10</li>
-        <li><strong>Higher Secondary</strong> Velankanni School, Chennai (2014 - 2016), 96.67%</li>
-        <li><strong>Secondary School</strong> Velankanni School, Chennai (2013 - 2014), 98.6%</li>
-      </ul>
-    </section>
-
-    <!-- Projects Section (from projects.html) -->
+    <!-- Projects Section (moved above Education) -->
     <section id="projects">
       <h2>Projects</h2>
       <div class="card-grid">
@@ -93,51 +82,39 @@
           <p>Hybrid MPI-OpenMP strategy in OpenFOAM for accelerated chemistry calculations (208x speedup).</p>
         </div>
         <div class="card">
-          <h3>Electrohydraulic Forming</h3>
-          <p>SPH-FEM simulations in ABAQUS to model sheet metal deformation using electrical discharges.</p>
-        </div>
-        <div class="card">
           <h3>Acoustic Analysis</h3>
-          <p>Modal analysis in Ansys-Fluent to resolve combustion instabilities in a Rijke tube.</p>
-        </div>
-        <div class="card">
-          <h3>Structural Analysis</h3>
-          <p>MATLAB tool for finite element analysis (FEA) of 2D truss structures.</p>
-        </div>
-        <div class="card">
-          <h3>Optimization</h3>
-          <p>Genetic Algorithm (GA) implementation in MATLAB to optimize composite structures.</p>
+          <p>Modal and stability analysis in Ansys-Fluent to investigate combustion instabilities.</p>
         </div>
       </div>
     </section>
 
+    <!-- Education Section (moved below Projects) -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>PhD in Mechanical Engineering</strong> IIT Gandhinagar (2020 - Present), CPI: 9.61/10</li>
+        <li><strong>B.E. in Mechanical Engineering</strong> MIT – Anna University (2016 - 2020), CGPA: 9.84/10</li>
+        <li><strong>Higher Secondary</strong> Velankanni School, Chennai (2014 - 2016), 96.67%</li>
+        <li><strong>Secondary School</strong> Velankanni School, Chennai (2013 - 2014), 98.6%</li>
+      </ul>
+    </section>
+
     <!-- Publications Section (from publications.html) -->
     <section id="publications">
-      <h2>Publications</h2>
+      <h2>Selected Publications</h2>
       <div class="card-grid">
         <div class="card">
           <h3>Journal of Propulsion and Power (2025)</h3>
           <p>Computational study on ALICE propellants for thrust optimization.</p>
         </div>
         <div class="card">
-          <h3>AIAA SciTech Forum (2025)</h3>
-          <p>Effects of particle size and composition on gelled aluminum propellants.</p>
-        </div>
-        <div class="card">
           <h3>Combustion and Flame (2024)</h3>
           <p>CFD model for burning rates of nano-aluminum-water propellant strands.</p>
         </div>
+        <!-- ASME-IMECE (2024) removed per request -->
         <div class="card">
-          <h3>ASME-IMECE (2024)</h3>
-          <p>Performance analysis of hybrid solid rocket motors using CFD simulations.</p>
-        </div>
-        <div class="card">
-          <h3>NCC-IITGN (2023)</h3>
-          <p>High-performance computing of compressible flows with chemical reactions.</p>
-        </div>
-        <div class="card">
-          <h3>IJHE (2020)</h3>
-          <p>Study of hydrogen-based propellants for green propulsion systems.</p>
+          <h3>AIAA SciTech Forum (2025)</h3>
+          <p>Effects of particle size and composition on gelled aluminum propellants.</p>
         </div>
       </div>
     </section>
